@@ -1,0 +1,9 @@
+namespace cog;
+
+table OrientationMessage {
+    azimuth: float;
+    pitch: float;
+    roll: float;
+}
+
+root_type OrientationMessage;
